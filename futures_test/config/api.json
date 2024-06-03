@@ -1,0 +1,27 @@
+{
+  "gateway": {
+    "ip": "192.168.7.214",
+    "port": 59000,
+    "protocol": "grpc"
+  },
+  "meta_server": [
+    {
+      "server_id": "file_meta_214",
+      "ip": "192.168.7.214",
+      "port": 59001,
+      "protocol": "grpc"
+    },
+    {
+      "server_id": "file_meta_215",
+      "ip": "192.168.7.215",
+      "port": 59001,
+      "protocol": "grpc"
+    },
+    {
+      "server_id": "origin_file_meta",
+      "ip": "192.168.7.92",
+      "port": 5945,
+      "protocol": "grpc"
+    }
+  ]
+}
