@@ -1,5 +1,0 @@
-INFO [2024-04-02 14:40:20] [ApiClient.py:30] [init] 网关连接配置:grpc://192.168.7.214:59000
-INFO [2024-04-02 14:40:20] [ApiClient.py:30] [init] 用户:zlt_read登录结果:RetCode.success, msg:
-INFO [2024-04-02 14:40:20] [ApiClient.py:30] [init] Meta服务配置:grpc://192.168.7.214:59001
-INFO [2024-04-02 14:40:20] [ApiClient.py:30] [init] Meta服务配置:grpc://192.168.7.215:59001
-INFO [2024-04-02 14:40:20] [ApiClient.py:30] [init] Meta服务配置:grpc://192.168.7.92:5945
