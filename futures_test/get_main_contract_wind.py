@@ -5,7 +5,7 @@ from futures_test.connect_wind import ConnectDatabase
 # 获取历史主力对应月合约
 class get_main_contract(ConnectDatabase):
 
-    def __init__(self,future_symbol, start_date: str, end_date: str):
+    def __init__(self, future_symbol, start_date: str, end_date: str):
         self.future_symbol = future_symbol  #例 铜CU(大写)
         self.start_date = start_date
         self.end_date = end_date

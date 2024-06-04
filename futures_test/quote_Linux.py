@@ -41,7 +41,7 @@ if __name__ == '__main__':
         # row = contract_df.iloc[0]
         # df = api.file_read([row['symbol']], row['start'], row['end'])[0]
         save_path = '/nas92/data/future'
-        symbol_list = ['CU', 'CF', 'LC', 'SC', 'IM', 'T', 'I']   #剩CF
+        symbol_list = ['SC', 'T']   # CU CF I IM 已， LC无数据
         start_date = '20230101'
         end_date = '20231231'
         result = pd.DataFrame(columns=['symbol', 'contract', 'start', 'end'])
